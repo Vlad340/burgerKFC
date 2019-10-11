@@ -17,6 +17,18 @@ public class Main {
                 " Информация предоставлена на основе текущего меню и может изменяться без предварительного уведомления." +
                 "** В некоторых ресторанах KFC продукты и цены могут отличаться";
         burger.price = 99_00;
-        burger.photoUrl="https://s82079.cdn.ngenix.net/YLb95nAs4KMibLPRCtve6Je3.png?dw=230"
+        burger.photoUrl = "https://s82079.cdn.ngenix.net/YLb95nAs4KMibLPRCtve6Je3.png?dw=230";
+
+        System.out.println(burger.id);
+        System.out.println(burger.name);
+        System.out.println(burger.calories);
+        System.out.println(burger.weight);
+        System.out.println(burger.proteins);
+        System.out.println(burger.fats);
+        System.out.println(burger.carbohydrates);
+        System.out.println(burger.description);
+        System.out.println(burger.remarks);
+        System.out.println(burger.price);
+        System.out.println(burger.photoUrl);
     }
 }
