@@ -1,13 +1,13 @@
 public class Burger {
     long id;
-    char name;
+    String name;
     int weight;
     int calories;
-    int proteins;
-    int fats;
-    int carbohydrates;
-    char remarks;
-    char description;
+    float proteins;
+    float fats;
+    float carbohydrates;
+    String remarks;
+    String description;
     long price;
-    char photoUrl;
+    String photoUrl;
 }
