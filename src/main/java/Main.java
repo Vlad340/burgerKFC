@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        Integer decimal = 10;
         Integer hundredth=100;
 
         Burger burgerChefburger = new Burger();
@@ -8,9 +7,9 @@ public class Main {
         burgerChefburger.name = "Шефбургер Джуниор Острый";
         burgerChefburger.calories = 250;
         burgerChefburger.weight=161;
-        burgerChefburger.proteins=136;
-        burgerChefburger.fats = 100;
-        burgerChefburger.carbohydrates = 265;
+        burgerChefburger.proteins=13.6F;
+        burgerChefburger.fats = 10F;
+        burgerChefburger.carbohydrates = 26.5F;
         burgerChefburger.description = "Два сочных стрипса в острой панировке, сочные листья салата, " +
                 "пикантные маринованные огурчики, лук, фирменный соус «Бургер» и булочка с черно-белым кунжутом.";
         burgerChefburger.remarks = "* Данные по пищевой и энергетической ценности блюд, представленные в таблице, основаны на " +
@@ -26,9 +25,9 @@ public class Main {
         System.out.println(burgerChefburger.name);
         System.out.println(burgerChefburger.calories+" Ккал");
         System.out.println(burgerChefburger.weight+" г");
-        System.out.println((double)burgerChefburger.proteins/decimal+" г");
-        System.out.println((double)burgerChefburger.fats/decimal+" г");
-        System.out.println((double)burgerChefburger.carbohydrates/decimal+" г");
+        System.out.println(burgerChefburger.proteins+" г");
+        System.out.println(burgerChefburger.fats+" г");
+        System.out.println(burgerChefburger.carbohydrates+" г");
         System.out.println(burgerChefburger.description);
         System.out.println(burgerChefburger.remarks);
         System.out.println((double) burgerChefburger.price/hundredth+" руб");
@@ -39,9 +38,9 @@ public class Main {
         burgerCheeseburger.name = "Чизбургер Де Люкс";
         burgerCheeseburger.calories = 193;
         burgerCheeseburger.weight=226;
-        burgerCheeseburger.proteins=126;
-        burgerCheeseburger.fats = 66;
-        burgerCheeseburger.carbohydrates = 207;
+        burgerCheeseburger.proteins=12.6F;
+        burgerCheeseburger.fats = 6.6F;
+        burgerCheeseburger.carbohydrates = 20.7F;
         burgerCheeseburger.description = "Пряный горчичный соус, кетчуп, сочное филе в оригинальной панировке, лук, сыр Чеддер, " +
                 "огурцы на пшеничной булочке с кукурузной посыпкой, свежий салат и ломтики помидора.";
         burgerCheeseburger.remarks = "* Данные по пищевой и энергетической ценности блюд, представленные в таблице, основаны на " +
@@ -57,9 +56,9 @@ public class Main {
         System.out.println(burgerCheeseburger.name);
         System.out.println(burgerCheeseburger.calories+" Ккал");
         System.out.println(burgerCheeseburger.weight+" г");
-        System.out.println((double) burgerCheeseburger.proteins/decimal+" г");
-        System.out.println((double)burgerCheeseburger.fats/decimal+" г");
-        System.out.println((double)burgerCheeseburger.carbohydrates/decimal+" г");
+        System.out.println(burgerCheeseburger.proteins+" г");
+        System.out.println(burgerCheeseburger.fats+" г");
+        System.out.println(burgerCheeseburger.carbohydrates+" г");
         System.out.println(burgerCheeseburger.description);
         System.out.println(burgerCheeseburger.remarks);
         System.out.println((double) burgerCheeseburger.price/hundredth+" руб");
